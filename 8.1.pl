@@ -1,0 +1,11 @@
+s --> np(X),vp(X).
+np(X) --> det,n(X).
+vp(X) --> v(X),np(X).
+vp(X) --> v(X).
+det --> [the].
+det --> [a].
+n(singular) --> [woman].
+n(singular) --> [man].
+n(plural) --> [men].
+v(singular) --> [shoots].
+v(plural) --> [shoot].
